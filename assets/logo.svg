@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Unsha Sattar — US developer monogram</title>
+  <!-- A faceted seal, code brackets, and custom-drawn initials; no font dependency. -->
+  <path d="M32 3 59 18.5v27L32 61 5 45.5v-27L32 3Z" fill="#241a21" stroke="#e8cda5" stroke-width="1.25"/>
+  <g stroke="#e8cda5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m15 27-5 5 5 5m34-10 5 5-5 5" stroke-width="1.5" opacity=".65"/>
+    <path d="M20 21v16c0 9 12 9 12 0V21" stroke-width="2.5"/>
+    <path d="M46 24c-3-5-12-3-12 3 0 7 13 4 13 11 0 7-10 9-14 3" stroke-width="2.5"/>
+  </g>
+  <path d="m32 9 2 3-2 3-2-3 2-3Z" fill="#e8cda5"/>
+</svg>
