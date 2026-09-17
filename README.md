@@ -16,7 +16,7 @@ In the hosted source checkout, the web files are under `dist/`. The download ZIP
 - `index.html`: semantic page structure, navigation, hero content and accessible image text.
 - `styles.css`: design tokens, base styles, navigation, hero, About, breakpoints and reduced-motion behavior.
 - `script.js`: accessible mobile navigation state, Escape/outside-click/link closing and breakpoint reset.
-- `assets/developer.webp`: locally included, optimized AI-generated illustration.
+- `assets/developer-modern.png`: locally included AI-generated portrait.
 - `assets/logo.svg`: custom US monogram with developer brackets, drawn as crisp SVG paths.
 - `assets/favicon.svg`: matching monogram for the browser tab.
 - `assets/Unsha-Sattar-CV.pdf`: copy of the existing Unsha_Sattar_Job_Ready_ATS_CV_2026.pdf, unchanged.
@@ -55,6 +55,6 @@ JavaScript syntax, local asset references, and fragment targets checked before p
 
 ## Asset credits
 
-`developer.webp` was generated with OpenAI image generation for this portfolio. It is a stylized character illustration, not a real photograph of Unsha. Prompt: editorial developer in a black niqab and abaya behind a dark laptop, champagne rim lighting, charcoal background, no logos or text. Original 1122 × 1402 PNG optimized into an 800 × 1000 WebP. The US logo, matching favicon, and download icon are original SVG interface marks. GitHub and LinkedIn icons identify their respective platforms. Inline React, JavaScript, Node.js and MongoDB marks identify the named technologies; the monocolor treatment matches the portfolio. Fonts use locally installed Segoe UI/Arial and Georgia/Times New Roman; no font files are redistributed.
+`developer-modern.png` was edited with OpenAI image generation using the earlier portrait as reference. It is an AI-generated character, not a real photograph of Unsha. Edit prompt: modern developer in a softly draped plum headscarf, lightweight matching face covering and tailored plum blazer behind a laptop, champagne rim lighting and dark plum studio background; no logos or text. The generated PNG is included locally. The US logo, matching favicon, and download icon are original SVG interface marks. GitHub and LinkedIn icons identify their respective platforms. Inline React, JavaScript, Node.js and MongoDB marks identify the named technologies; the monocolor treatment matches the portfolio. Fonts use locally installed Segoe UI/Arial and Georgia/Times New Roman; no font files are redistributed.
 
 Starfield coordinates and animation approach adapted from the CSS snippet supplied by the user; no external animation library is used. Existing plum theme is preserved.

@@ -442,3 +442,10 @@ a.contact-detail-card:hover { border-color: var(--color-accent); background: var
 .back-to-top { position: fixed; right: max(1.25rem,env(safe-area-inset-right)); bottom: max(1.25rem,env(safe-area-inset-bottom)); z-index: 30; display: grid; place-items: center; width: 48px; height: 48px; padding: 0; border: 1px solid var(--color-accent); border-radius: 50%; color: var(--color-accent); background: var(--color-surface); box-shadow: 0 4px 24px var(--glow-soft); cursor: pointer; transition: box-shadow var(--duration), background var(--duration); }
 .back-to-top:hover { background: var(--detail-hover); box-shadow: 0 0 20px var(--glow-bright); }
 @media (prefers-reduced-motion:reduce) { .email-confetti { display: none; } }
+
+/* 18 — Matching gradient tabs, with a stronger selected state in both themes. */
+.journey-tabs { --tab-gradient: linear-gradient(115deg,#513345,#80604f); --tab-selected-gradient: linear-gradient(115deg,#b48395,#e8cda5 75%,#f2ddbe); --tab-ink: #fff5e6; --tab-selected-ink: #241820; }
+.journey-tab { background: var(--tab-gradient); color: var(--tab-ink); transition: box-shadow var(--duration),border-color var(--duration),filter var(--duration); }
+.journey-tab:hover { filter: brightness(1.08); }
+.journey-tab[aria-selected="true"] { background: var(--tab-selected-gradient); color: var(--tab-selected-ink); border-color: var(--color-accent); box-shadow: inset 3px 0 0 var(--tab-selected-ink),0 5px 20px var(--glow-soft); font-weight: 600; }
+[data-theme="light"] .journey-tabs { --tab-gradient: linear-gradient(115deg,#efe0e7,#f3e7d7); --tab-selected-gradient: linear-gradient(115deg,#70445c,#795021); --tab-ink: #49303e; --tab-selected-ink: #fff8ed; }
